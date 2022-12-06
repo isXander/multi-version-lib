@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "multi-version-lib-test",
+  "version": "${version}",
+  "name": "multi-version-lib (Test)",
+  "description": "Testing module of multi-version-lib",
+  "authors": [
+    "isXander"
+  ],
+  "contact": {
+    "homepage": "https://isxander.dev"
+  },
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.isxander.multiversionlib.test.MultiVersionLibTest"
+    ]
+  },
+  "depends": {
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ],
+      "parent": "multi-version-lib-api"
+    }
+  }
+}

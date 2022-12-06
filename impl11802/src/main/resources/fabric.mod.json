@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "multi-version-lib-impl-11802",
+  "version": "${version}",
+  "name": "multi-version-lib (1.18.2)",
+  "description": "1.18.2 module of multi-version-lib",
+  "authors": [
+    "isXander"
+  ],
+  "contact": {
+    "homepage": "https://isxander.dev"
+  },
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+
+  },
+  "depends": {
+    "minecraft": "1.18.x",
+    "multi-version-lib-api": "${version}"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ],
+      "parent": "multi-version-lib-api"
+    }
+  }
+}

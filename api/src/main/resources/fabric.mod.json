@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "multi-version-lib-api",
+  "version": "${version}",
+  "name": "multi-version-lib",
+  "description": "API for mods to support multiple Minecraft versions in one codebase.",
+  "authors": [
+    "isXander"
+  ],
+  "contact": {
+    "homepage": "https://isxander.dev"
+  },
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+
+  },
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "minecraft": "*",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "library" ]
+    }
+  }
+}
